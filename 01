@@ -1,0 +1,11 @@
+fun main() {
+    var a: Int = 5
+    println(a++)
+    println(a)
+    println(a--)
+    println(a)
+    println(++a)
+    println(a)
+    println(--a)
+    println(a)
+}
