@@ -1,0 +1,11 @@
+fun main() {
+    var nombre: String = "Marcelo"
+    var vehiculo: String = "Camioneta"
+    var pago: Boolean = true
+    var saludo = "Hola " + nombre 
+    
+    if (pago == true) saludo += ", puedes estacionar tu " + vehiculo
+    else saludo += "Quieres ser estacionar? Primero debes  pagar la cuota"
+    
+    println(saludo)
+}
