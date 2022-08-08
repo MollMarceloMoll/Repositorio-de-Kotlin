@@ -1,1 +1,10 @@
-
+fun main() {
+    var a : Int = 55
+    
+    when (a) {
+        10 -> println(a)
+        100 -> println(a)
+        else -> println("No esta $a")
+        
+    }
+}
