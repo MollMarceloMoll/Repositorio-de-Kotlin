@@ -1,1 +1,10 @@
-fun main(){}
+fun main() {
+    var sueldo: Float = 100f
+    var saldo: Float = 40.10f
+    
+    fun mostrarSaldo () {
+        saldo += sueldo
+        println("Su saldo es $saldo")
+    }
+    mostrarSaldo()
+}
