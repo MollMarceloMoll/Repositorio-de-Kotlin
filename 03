@@ -1,10 +1,9 @@
 fun main() {
-    var a : Int = 55
+    var num: Int = 100
     
-    when (a) {
-        10 -> println(a)
-        100 -> println(a)
-        else -> println("No esta $a")
-        
+    when (num) {
+        in 1..20 -> println("$num esta entre 1 y 20")
+        in 20..50 -> println("$num esta entre 20 y 50")
+        in 50..100 -> println("$num esta entre 50 y 100")
     }
 }
