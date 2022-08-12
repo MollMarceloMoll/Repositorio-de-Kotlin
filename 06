@@ -1,1 +1,15 @@
-
+fun main() {
+    var tanque = 100
+    var nivel = 10
+    var agregarCombustible = 0
+    
+    fun tanqueDeCombustible (agregarCombustible) {
+        if (tanque > nivel) {
+            println("Necesita agregar combustible")
+            tanque += agregarCombustible 
+        } else {
+            println("Tiene $nivel de combustible")
+        }
+    }
+    tanqueDeCombustible(50)
+}
