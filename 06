@@ -6,7 +6,7 @@ fun main() {
     fun tanqueDeCombustible (agregarCombustible) {
         if (tanque > nivel) {
             println("Necesita agregar combustible")
-            tanque += agregarCombustible 
+            tanque = agregarCombustible 
         } else {
             println("Tiene $nivel de combustible")
         }
