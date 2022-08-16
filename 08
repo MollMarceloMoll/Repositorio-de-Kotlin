@@ -1,0 +1,4 @@
+fun main() {
+    var a: Array<String> = arrayOf("Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo")
+	println(a[1])
+}
