@@ -16,5 +16,6 @@ fun main() {
         saldo -= cantidad
         println("Se ha hecho una retirada de $cantidad $moneda")
         mostrar_saldo()
+       
     }
 }
