@@ -12,7 +12,7 @@ fun main() {
         println("Se ha ingresado $cantidad $moneda")
         mostrar_saldo()
     }
-    fun retirar_dinero (cantidad : Float) {
+    fun retirar_dinero (cantidad : Double) {
         saldo -= cantidad
         println("Se ha hecho una retirada de $cantidad $moneda")
         mostrar_saldo()
