@@ -1,0 +1,4 @@
+fun main() {
+    var n : Set<Int> = setOf (12345, 678910)
+    println(n)
+}
