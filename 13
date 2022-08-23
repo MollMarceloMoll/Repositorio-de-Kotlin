@@ -1,0 +1,6 @@
+fun main() {
+    var n: MutableSet<Int> = mutableSetOf (12345,678910,5050)
+    println(n)
+    n.add(9090)
+    println(n)
+}
