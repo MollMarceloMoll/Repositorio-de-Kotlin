@@ -1,0 +1,21 @@
+fun main() {
+    var lista: MutableList<String> = mutableListOf("Monitor", "Teclado", "Mouse", "Notebook")
+    
+    println(lista)
+    
+    lista.add("Parlantes")
+    println(lista)
+    
+    lista.removeAt(1)
+    println(lista)
+    
+    println(lista.first())
+    
+    println(lista.last())
+    println(lista.elementAt(1))
+    println(lista.none())
+    
+    lista.clear()
+    println(lista)
+    println(lista.none())
+}
