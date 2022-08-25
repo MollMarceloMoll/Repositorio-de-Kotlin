@@ -1,1 +1,9 @@
-
+fun main() {
+    var mapa: Map<Int, String> = mapOf(
+    	1 to "Auto",
+        2 to "Camioneta",
+        3 to "Camion",
+        4 to "Colectivo"
+    )
+    println(mapa)
+}
