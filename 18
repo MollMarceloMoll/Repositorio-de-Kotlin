@@ -1,3 +1,7 @@
-fun () {
-  printl()
+fun main() {
+    var a: Int = 9
+    do {
+        println(a)
+        --a
+    }while(a >= 0)
 }
