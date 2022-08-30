@@ -1,0 +1,6 @@
+fun main() {
+    var menu: Array<String> = arrayOf ("Milaneza con pure", "Asado", "Arroz con pollo", "Pizza")
+    for (i in menu) {
+        println(i)
+    }
+}
