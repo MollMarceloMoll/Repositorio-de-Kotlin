@@ -1,0 +1,12 @@
+fun main() {
+    var menu = mutableMapOf (
+    	"Pizza" to 100,
+        "Asado" to 150,
+        "Arroz con Pollo" to 120,
+        "Milanesas con Pure" to 110
+    )
+    
+    for (i in menu) {
+        println(i)
+    }
+}
