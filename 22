@@ -1,0 +1,6 @@
+fun main() {
+    var menu = arrayOf (
+    	arrayOf ("Asado",40, arrayOf("Carne","Condimentos","Sal")),
+        arrayOf ("Milanesas con Pure", 35, arrayOf("Carne","Pan rallado","Aceite","Condimentos","Sal","Papas"))
+    )
+}
