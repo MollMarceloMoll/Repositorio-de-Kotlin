@@ -8,6 +8,6 @@ fun main() {
         for (b in (0 until menu[a].size))
         	println("${menu[a][b]}")
             var ingredientes: Array<String> = menu[a][b] as Array<String>
-            for (c in ingredientes) print(c)
+            for (c in ingredientes)
     }
 }
