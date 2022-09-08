@@ -1,5 +1,8 @@
 fun main () {
   class Nombres () {
-  
+    private
+    private
+    private
+    private
   }
 }
