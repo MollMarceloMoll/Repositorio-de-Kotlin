@@ -1,13 +1,13 @@
 fun main() {
-    var menu = arrayOf (
-    	arrayOf ("Asado",40, arrayOf("Carne","Condimentos","Sal")),
-        arrayOf ("Milanesas con Pure", 35, arrayOf("Carne","Pan rallado","Aceite","Condimentos","Sal","Papas"))
+    var array = arrayOf(
+    	arrayOf ("Hola",10),
+        arrayOf (1,2,3,4,5),
+        arrayOf ("Lunes","Martes","Miercoles","Jueves","Viernes")
     )
-        for (a in (0 until menu.size)) {
+    for (a in (0 until array.size)) {
         println()
-        for (b in (0 until menu[a].size))
-        	println("${menu[a][b]}")
-            var ingredientes: Array<String> = menu[a][b] as Array<String>
-            for (c in ingredientes)
+        for (b in (0 until array[a].size)){
+            print(" ${array[a][b]} ")
+        }
     }
 }
