@@ -1,1 +1,14 @@
 
+const val moneda : String = "PESOS"
+fun main() {
+    
+    var saldo : Float = 110000f
+    var sueldo : Float = 80000f
+    
+    var nombre : String = "Kotlin"
+    var vip : Boolean = true
+    var saludo : String = "Hola " + nombre
+    
+    if (vip == true) saludo += ", te queremos mucho"
+        print(saludo)
+}
