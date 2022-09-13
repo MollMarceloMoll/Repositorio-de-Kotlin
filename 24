@@ -11,4 +11,10 @@ fun main() {
     
     if (vip == true) saludo += ", te queremos mucho"
         print(saludo)
+    
+    fun mostrar_saldo(){
+        var cantidad = saldo + sueldo
+        print("\n\nTienes $cantidad ")
+    }
+    mostrar_saldo()
 }
