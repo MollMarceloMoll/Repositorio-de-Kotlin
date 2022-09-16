@@ -1,3 +1,13 @@
-fun main () {
-  println("Hello kotlin")
+
+fun main() {
+    var intentos = 0
+    var pin = 1234
+    var clave_ingresada = 1231
+    
+    do {
+        println("Ingrese el pin")
+        println("Pin igresado $clave_ingresada")
+        intentos++
+        if (pin == clave_ingresada) println("El pin ingresado es el correcto")
+    } while (clave_ingresada++ != pin == intentos < 3)
 }
